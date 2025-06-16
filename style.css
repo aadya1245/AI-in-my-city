@@ -2,32 +2,53 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
 }
 
+/* Header style */
 header {
   background: #333;
   color: #fff;
   padding: 1rem;
 }
 
-header nav a {
+/* Navigation links */
+nav a {
   color: #fff;
   margin-right: 1rem;
   text-decoration: none;
 }
 
-main {
-  padding: 1rem;
+nav a:hover {
+  text-decoration: underline;
 }
 
+/* Main content style */
+main {
+  padding: 2rem;
+}
+
+/* Headings */
 h1, h2 {
   color: #333;
 }
 
-footer {
-  text-align: center;
-  background: #eee;
-  padding: 1rem;
-  margin-top: 2rem;
+/* Page-specific background colors */
+.home-page {
+  background: #f0f8ff; /* light blue */
+}
+
+.uses-page {
+  background: #fff8dc; /* cornsilk */
+}
+
+.policy-page {
+  background: #e6ffe6; /* mint green */
+}
+
+.tips-page {
+  background: #fff0f5; /* lavender blush */
+}
+
+.about-page {
+  background: #f5f5dc; /* beige */
 }
