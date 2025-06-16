@@ -11,6 +11,5 @@ This is a simple website I coded myself to help my community understand how Arti
 - Safety Tips
 - About Me
 
-**Live Site:** [Add your GitHub Pages link here once published]
 
 ---
